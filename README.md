@@ -1,2 +1,12 @@
 # Device_LPS
 Used to estimate logging rate based on log receiver statistics.
+
+This set of scripts will poll the firewall to see how many logs are written per second. It pulls the lps value from the 'debug log-receiver statistics" command and is intended to provide an estimate of the number of logs per second that can be forwarded from the device. Note that the number will be accurate provided all policies are configured to forward logs.
+
+
+Usage:
+
+/usr/bin/expect /home/myuser/device_lps.exp <Firewall IP> <Username> <Number of samples>
+
+
+This is still a work in progress. If you have any issues, please reach out to cstancill@paloaltonetworks.com.
