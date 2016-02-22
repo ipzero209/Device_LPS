@@ -12,7 +12,7 @@ infile = open('device_lps.txt', 'r')
 outfile = open('samples.log', 'w+')
 samples = []
 
-# Adding a sample comment.
+
 
 
 for line in infile:
