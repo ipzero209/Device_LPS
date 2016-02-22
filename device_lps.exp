@@ -1,0 +1,59 @@
+#!/usr/bin/expect
+
+# Log file to use as data source
+log_file "device_lps.txt"
+
+
+
+
+
+
+# Set connection info
+
+set FW_IP [lindex $argv 0]
+set FW_User [lindex $argv 1]
+set sample_num [lindex $argv 2]
+
+# Print error if any parameters are missing
+
+if { $FW_IP == "" || $FW_User == "" || $sample_num == "" } {
+        puts "\nERROR: Firewall IP address, Firewall Username, Firewall Password values are all Required.\n"
+        puts "Usage: /usr/bin/expect /home/myuser/device_lps.exp <Firewall IP> <Username> <Number of samples>\n";
+        exit 1
+}
+
+stty -echo
+
+send_user -- "Enter your password: "
+expect_user -re "(.*)\n"
+send_user "\n"
+set FW_Pass $expect_out(1,string)
+
+stty echo
+
+# Counter for a 1 hour sample
+set count 0
+
+spawn ssh -o StrictHostKeyChecking=no $FW_User@$FW_IP
+expect "Password:"
+send "$FW_Pass\r"
+
+
+
+# Loop every one second to get log sequence numbers
+
+while {$count < $sample_num} {
+	expect -re {(>|#) $}
+	send "debug log-receiver statistics\r"
+	set count [expr $count+1]
+	sleep 1
+}
+
+
+log_file
+
+expect -re {(>|#) $}
+send "exit\r"
+
+spawn "./device_lps.py"
+expect eof
