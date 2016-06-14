@@ -64,14 +64,14 @@ if { $device_type == "fw" } {
     expect -re {(>|#) $}
     send "debug log-receiver statistics\r"
     set count [expr $count+1]
-    sleep 1
+    sleep 10
   }
 } elseif { $device_type == "cms" } {
   while {$count < $sample_num} {
     expect -re {(>|#) $}
     send "debug log-collector log-collection-stats show incoming-logs\r"
     set count [expr $count+1]
-    sleep 1
+    sleep 10
   }
 } else {
   puts "Invalid device type specified. Please choose either 'fw' or 'cms'.\n"
