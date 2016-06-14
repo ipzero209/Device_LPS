@@ -6,9 +6,9 @@ This set of scripts will poll the firewall to see how many logs are written per 
 
 Usage:
 
-/usr/bin/expect /home/myuser/device_lps.exp <Firewall IP> <Username> <device_type> <Number of samples>
+"/usr/bin/expect /home/myuser/device_lps.exp <Firewall IP> <Username> <device_type> <Number of samples>"
 
-device_type can be either 'fw' or 'cms'. 'fw' will send the appropriate command for a firewall while 'cms' will send the appropriate command for Panorama.
-
+- device_type can be either 'fw' or 'cms'. 'fw' will send the appropriate command for a firewall while 'cms' will send the appropriate command for Panorama.
+- Samples are taken every 10 seconds, so you would enter 360 to get samples over an hour.
 
 This is still a work in progress. If you have any issues, please reach out to cstancill@paloaltonetworks.com.
