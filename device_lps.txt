@@ -1,274 +1,0 @@
-Enter your password: adm1n69!@
-
-spawn ssh -o StrictHostKeyChecking=no cstancill@10.3.4.136
-Product Management-Demo Panorama.  
-Please login with your corporate credentials. 
-If you think you should have access but do not, email jfitz-gerald.
-Password: 
-Last login: Tue Jun 14 12:12:27 2016 from 10.35.12.23
-
-Number of failed attempts since last successful login: 0
-
-
-cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:13:59 2016
-
-Incoming log rate = 569.79
-
-Detail counts by logtype:
-traffic:131313022
-config:0
-system:20502
-threat:37169562
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:60656
-Num cumulative drop entries in trsum:606367
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:13:59 2016
-
-Incoming log rate = 569.79
-
-Detail counts by logtype:
-traffic:131313022
-config:0
-system:20502
-threat:37169562
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:60656
-Num cumulative drop entries in trsum:606367
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:13:59 2016
-
-Incoming log rate = 569.79
-
-Detail counts by logtype:
-traffic:131313022
-config:0
-system:20502
-threat:37169562
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:60656
-Num cumulative drop entries in trsum:606367
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:13:59 2016
-
-Incoming log rate = 569.79
-
-Detail counts by logtype:
-traffic:131313022
-config:0
-system:20548
-threat:37169562
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:60656
-Num cumulative drop entries in trsum:606367
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:14:10 2016
-
-Incoming log rate = 208.82
-
-Detail counts by logtype:
-traffic:131313850
-config:0
-system:20548
-threat:37169862
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:61072
-Num cumulative drop entries in trsum:606783
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:14:10 2016
-
-Incoming log rate = 208.82
-
-Detail counts by logtype:
-traffic:131313850
-config:0
-system:20548
-threat:37169862
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:61072
-Num cumulative drop entries in trsum:606783
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:14:10 2016
-
-Incoming log rate = 208.82
-
-Detail counts by logtype:
-traffic:131313850
-config:0
-system:20548
-threat:37169862
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:61072
-Num cumulative drop entries in trsum:606783
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:14:10 2016
-
-Incoming log rate = 208.82
-
-Detail counts by logtype:
-traffic:131313850
-config:0
-system:20548
-threat:37169862
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:61072
-Num cumulative drop entries in trsum:606783
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> debug [Kcstancill@PM-DemoData-rama> debug log-collector [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show [Kcstancill@PM-DemoData-rama> debug log-collector log-collection-stats show incoming-logs
-[?1h=[60;1H[K
-Last time logs received Tue Jun 14 12:14:10 2016
-
-Incoming log rate = 208.82
-
-Detail counts by logtype:
-traffic:131313850
-config:0
-system:20548
-threat:37169862
-appstat:0
-trsum:0
-thsum:0
-event:0
-alarm:0
-hipmatch:913
-userid:0
-iptag:0
-mdm:0
-extpcap:728342
-urlsum:0
-
-Summary Statistics:
-Num current drop entries in trsum:61072
-Num cumulative drop entries in trsum:606783
-Num current drop entries in thsum:0
-Num cumulative drop entries in thsum:0
-
-[60;1H[K[?1l>cstancill@PM-DemoData-rama> 
