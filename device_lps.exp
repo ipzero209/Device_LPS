@@ -55,7 +55,9 @@ spawn ssh -o StrictHostKeyChecking=no $FW_User@$FW_IP
 expect "Password:"
 send "$FW_Pass\r"
 
-
+# Set CLI paging off
+expect -re {(>|#) $}
+send "set cli pager off\r"
 
 # Loop every one second to get log sequence numbers, using the appropriate command for the device type.
 
